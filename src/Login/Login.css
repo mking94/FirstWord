@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+.pagelogin{
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  font-family: "work sans";
+  background-repeat: no-repeat;
+  height: calc(100vh + 34px);
+}
+.content {
+ background: white;
+ width: 275px;
+ height: auto;
+ border-radius: 25px;
+ position: absolute;
+ left: 50%;
+ top: 50%;
+ transform: translateX(-50%) translateY(-50%);
+}
+
+.content #logo{
+ width: 65px;
+ position: relative;
+ left: 50%;
+ transform: translateX(-50%);
+ margin-bottom: -5px;
+ margin-top: 5px;
+}
+.content h1{
+ text-align: center;
+ font-family: "open sans", sans-serif;
+ margin: 0;
+ font-size: 2rem;
+}
+.content form {
+ display: flex;
+ flex-direction:column;
+ margin-top: 5px;
+ height: cover;
+ margin-left: auto;
+ margin-right: auto;
+}
+.content label {
+ color:rgba(187, 187, 187, 1);
+ margin-left: 45px;
+ margin-top: 10px;
+}
+.content form input {
+  width: 80%;
+  box-sizing: border-box;
+  border: none;
+  height: 28px;
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  border-bottom: 3px solid rgba(187, 187, 187, 0.2);
+  margin-bottom: 5px;
+  color: black;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.content form input[type=password]{
+  margin-top: 15px;
+
+}
+.content input:focus {
+  border-bottom: 3px solid rgba(34, 193, 195, 0.7);
+  outline: none;
+}
+.content input::placeholder {
+  font-size: 15px;
+  color: rgba(187, 187, 187, 0.9);
+}
+.content input:hover::-webkit-input-placeholder {
+  opacity: 0;
+}
+.content .button {
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 8px;
+ border-radius: 25px;
+ height: 40px;
+ font-size: 1.3rem;
+ color: white;
+ font-weight: 700;
+ background: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+ border: 0px;
+ cursor: pointer;
+ transition: opacity 0.25s ease-out;
+ margin-bottom: 10px;
+ text-align: center;
+ padding: 0 20px;
+
+}
+.content .button:hover {
+  opacity: 0.8;
+}

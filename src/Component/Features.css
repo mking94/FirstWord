@@ -1,0 +1,45 @@
+
+.back_feat{
+  background: white;
+  padding-top: 5px;
+  height: cover;
+}
+
+.back_feat #title {
+  border: 4px solid #00d9ff;
+  border-radius: 45px;
+  width: 235px;
+  height: 75px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #00d9ff;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  padding-top: 10px;
+}
+.data {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.data h5, p {
+  color: #00d9ff;
+  font-size: 17px;
+}
+img {
+  width: 205px;
+}
+
+@media only screen and (max-width: 768px) {
+  .back_feat #title {
+    padding-top: 12px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .back_feat #title {
+    padding-top: 15px;
+  }
+}

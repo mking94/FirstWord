@@ -1,0 +1,38 @@
+@font-face {
+  font-family: captcha;
+  src: url("../font/Black_Dreams.ttf");
+}
+.captcha {
+  width: 235px;
+  height: 105px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 55px;
+}
+.captcha span {
+  font-family: captcha;
+  font-size: 20px;
+  color: black;
+  pointer-events: none;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.captcha p {
+  width: 135px;
+  font-size: 17px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

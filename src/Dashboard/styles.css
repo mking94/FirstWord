@@ -1,0 +1,125 @@
+
+.center {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tabnName {
+  color: blue;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.tabnName span {
+  margin-left: 5px;
+}
+.tab {
+	padding-left:18%;
+}
+.acts {
+	display: flex;
+	flex-direction: row;
+}
+.acts h6 {
+	margin-right:15px;
+}
+
+.rate {
+ display: flex;
+ flex-direction: row;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.label {
+ margin-right: 10px;
+}
+
+.hide {
+ display: none;
+}
+#iconD, #iconL{
+ margin-right: 10px;
+ color: blue;
+ font-size: 25px;
+ cursor:pointer;
+}
+details {
+ display: flex;
+ flex-direction: column;
+}
+details input {
+ margin-left: 15px;
+ margin-bottom: 8px;
+}
+details #btn {
+ margin-left: 65px;
+}
+.addmodel {
+ display: flex;
+ flex-direction: column;
+ width: 225px;
+ margin-left: auto;
+ margin-right: auto;
+}
+.addmodel textarea {
+  margin-bottom: 15px;
+  padding-left: 5px;
+  color: black;
+}
+.addmodel #btn {
+  margin-top: 15px;
+  padding-left: 5px;
+}
+.notifications div {
+ background: #CFD1D5;
+ opacity: 0.7;
+ width: 85%;
+ height: fit-content;
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 5px;
+ padding-left: 35px;
+ font-size: 20px;
+ border-radius: 10px;
+}
+.notifications div h4{
+ margin-left: 8px;
+}
+#commentview {
+ height: 75%; 
+ overflow-y: auto;
+}
+
+#commentview div {
+ background: #CFD1D5;
+ border-radius: 10px;
+ width: 165px;
+ margin-left: auto;
+ margin-right: auto; 
+}
+
+#commentview div p {
+ color: black;
+ padding-bottom: 5px;
+}
+
+#comment {
+ width: 90%;
+ height: 35px;
+ border-radius: 25px;
+ padding-bottom: 5px;
+ border: 2px solid #CFD1D5;
+ padding-left: 10px; 
+}
+
+@media only screen and (max-width: 937px) {
+  .center {
+	 width: 100%
+  }
+}
+@media only screen and (max-width: 1010px) {
+  .tabnName span {
+    display: none;
+  }
+}
