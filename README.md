@@ -12,6 +12,14 @@ cd FirstWord
   ♦ Flask
   
   ♦ MongoDB
+## Dependencies:
+
+| Library    | Version |
+| ---------- | ------- |
+| Python     | 3.7.3   |
+| Flask      | 1.0.2   |
+| Apache     | 2.4.41  |
+
 ## Demo:
 A fully functional demo is available at [Holberton school sandbox](https://github.com/mking94)
 ## License: 
