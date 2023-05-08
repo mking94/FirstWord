@@ -2,6 +2,8 @@
 FirstWord is a unique educational platform that utilizes artificial intelligence to help children identify objects and improve their language and cognitive skills.
 ## Usage:
 ```
+git clone https://github.com/mking94/FirstWord.git
+cd FirstWord
 ./setup.sh
 ```
 ## Technologies:
