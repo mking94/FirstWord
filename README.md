@@ -25,6 +25,9 @@ apt install mongodb
 mongo firstword --eval 'db.createCollection("Users"); db.createCollection("rate"); db.createCollection("models"); db.createCollection("Notification")'
 ```
 ```
+python index.py //To run server
+```
+```
 npm install
 npm start
 ```
