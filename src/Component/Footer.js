@@ -27,7 +27,7 @@ function Footer() {
           <div className="col-md-4 col-sm-6 col-xs-12 center">
             <ul className="social-icons">
 			  <br  className="nl"/>
-              <li><a className="github" href="https://github.com/mking94" ><i className="fa fa-github" ></i></a></li>  
+              <li><a className="github" href="https://github.com/mking94/FirstWord" ><i className="fa fa-github" ></i></a></li>  
             </ul>
           </div>
          </div>
