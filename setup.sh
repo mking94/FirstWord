@@ -7,8 +7,8 @@ pip install Flask
 pip install pymongo
 pip install Pillow
 pip install Flask-Cors 
-pip3 install flask-session
-pip3 install tensorflow
+pip install flask-session
+pip install tensorflow
 npm install
 npm run build
 mv index.py /var/www/html
