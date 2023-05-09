@@ -1,10 +1,32 @@
 ## FirstWord:
 FirstWord is a unique educational platform that utilizes artificial intelligence to help children identify objects and improve their language and cognitive skills.
 ## Usage:
+  # Deploy with apache:
 ```
 git clone https://github.com/mking94/FirstWord.git
 cd FirstWord
 ./setup.sh
+```
+  # Run without apache:
+```
+git clone https://github.com/mking94/FirstWord.git
+cd FirstWord
+```
+```
+pip install Flask
+pip install pymongo
+pip install Pillow
+pip install Flask-Cors 
+pip install flask-session
+pip install tensorflow
+```
+```
+apt install mongodb
+mongo firstword --eval 'db.createCollection("Users"); db.createCollection("rate"); db.createCollection("models"); db.createCollection("Notification")'
+```
+```
+npm install
+npm start
 ```
 ## Technologies:
   ♦ ReactJS
