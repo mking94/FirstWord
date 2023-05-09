@@ -7,7 +7,7 @@ git clone https://github.com/mking94/FirstWord.git
 cd FirstWord
 ./setup.sh
 ```
-  "# Run without apache:
+  ## Run without apache:
 ```
 git clone https://github.com/mking94/FirstWord.git
 cd FirstWord
