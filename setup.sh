@@ -14,5 +14,5 @@ npm run build
 mv index.py /var/www/html
 mv app.wsgi /var/www/html
 mv build/* /var/www/html
-mv 000-default.conf /etc/apache2/sites-available/000-default.conf
+mv config-apach/000-default.conf /etc/apache2/sites-available/000-default.conf
 sudo service apache2 restart
