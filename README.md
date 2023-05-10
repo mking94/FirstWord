@@ -1,13 +1,6 @@
-# FirstWord:
+# Description:
 FirstWord is a unique educational platform that utilizes artificial intelligence to help children identify objects and improve their language and cognitive skills.
 # Usage:
-  ## Deploy with apache:
-```
-git clone https://github.com/mking94/FirstWord.git
-cd FirstWord
-./setup.sh
-```
-  ## Run without apache:
 ```
 git clone https://github.com/mking94/FirstWord.git
 cd FirstWord
@@ -41,9 +34,9 @@ npm start
 
 | Library    | Version |
 | ---------- | ------- |
-| Python     | 3.7.3   |
+| ReactJS    | 18.2.0  |
 | Flask      | 1.0.2   |
-| Apache     | 2.4.41  |
+| Mongodb    | 3.0.2   |
 
 # Demo:
 A fully functional demo is available at [Holberton school sandbox](http://6e51c3252094.ae068b5a.hbtn-cod.io/)
