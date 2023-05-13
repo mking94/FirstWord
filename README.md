@@ -32,7 +32,7 @@ npm start
   ♦ MongoDB
 # Dependencies:
 
-| Library    | Version |
+| Framework  | Version |
 | ---------- | ------- |
 | ReactJS    | 18.2.0  |
 | Flask      | 1.0.2   |
