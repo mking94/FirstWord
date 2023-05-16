@@ -39,7 +39,7 @@ npm start
 | Mongodb    | 3.0.2   |
 
 # Demo:
-A fully functional demo is available at [Holberton school sandbox](http://6e51c3252094.ae068b5a.hbtn-cod.io/)
+A fully functional demo is available at [Holberton school sandbox](http://061095dde38f.6ed948a4.hbtn-cod.io/)
 # License: 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 # Associated:
